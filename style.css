@@ -1,0 +1,29 @@
+button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+}
+
+.task-item span {
+    margin-right: 10px;
+}
+
+.task-item button {
+    margin-left: auto;
+}
